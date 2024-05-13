@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(11, 81, 233);
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  border-radius: 20px;
+  width: 300px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+button {
+  width: 250px;
+  border-radius: 50px !important;
+  background-color: rgb(45, 140, 230) !important;
+  border: none !important;
+}
+button:hover{
+    background-color: rgb(55, 161, 300) !important;;
+}
+
+h5 {
+  font-size: small;
+  text-align: left !important;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-header,
+.card-footer {
+  background-color: transparent;
+
+}
+
+@media (max-width: 768px) {
+    .card {
+      width: 100%; 
+      max-width: 300px; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    button {
+      width: 100%; 
+    }
+  }
