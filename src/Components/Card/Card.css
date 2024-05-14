@@ -43,6 +43,9 @@ h5 {
   background-color: transparent;
 
 }
+.card-footer{
+  border: none;
+}
 
 @media (max-width: 768px) {
     .card {
